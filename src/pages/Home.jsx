@@ -1,4 +1,5 @@
-import "../styles/Home.css";
+
+import profile from '../assets/myimg.JPG'
 
 function Home() {
   return (
@@ -24,7 +25,7 @@ function Home() {
         </div>
 
         <div className="shrink-0">
-          <img className="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-purple-600/30" src="../src/assets/myimg.JPG" alt=""/>
+          <img className="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-purple-600/30" src={profile} alt=""/>
         </div>
         </div>
       </div>
