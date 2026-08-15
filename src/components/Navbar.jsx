@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <header className="w-full bg-black text-white">
-        <div className="max-w-7xl mx-auto py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto py-5 flex items-center justify-between">
           <Link className="font-bold hover:text-purple-600" to="/">Siddhartha</Link>
         
         <nav className="flex space-x-8">
