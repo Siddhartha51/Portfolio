@@ -1,4 +1,9 @@
-import { FaEnvelope, FaMapMarkerAlt, FaBriefcase, FaRocket } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaBriefcase,
+  FaRocket,
+} from "react-icons/fa";
 
 function Contact() {
   return (
@@ -9,11 +14,10 @@ function Contact() {
         </h1>
         <div className="flex flex-row justify-center">
           <p className="text-center text-xl mb-10 text-gray-400">
-          Have a project or idea? Let's build something amazing
-        </p>
-        <FaRocket className="text-purple-500 shrink-0"/>
+            Have a project or idea? Let's build something amazing
+          </p>
+          <FaRocket className="text-purple-500 shrink-0" />
         </div>
-        
 
         <div className="flex flex-col md:flex-row justify-center items-start gap-12">
           <div className="max-w-md space-y-4">
@@ -45,15 +49,22 @@ function Contact() {
               placeholder="Your Name"
               className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
             />
-            <input type="email" placeholder="Your Email" 
-            className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
             />
-            <textarea 
-            type="field" 
-            placeholder="Your Message" 
-            className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
+            <textarea
+              type="field"
+              placeholder="Your Message"
+              className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
             />
-            <button type="submit" className="bg-purple-700 hover:bg-purple-800 rounded-xl p-3 cursor-pointer">Send Message</button>
+            <button
+              type="submit"
+              className="bg-purple-700 hover:bg-purple-800 rounded-xl p-3 cursor-pointer"
+            >
+              Send Message
+            </button>
           </form>
         </div>
       </div>

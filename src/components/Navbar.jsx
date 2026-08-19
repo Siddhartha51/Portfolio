@@ -16,17 +16,22 @@ function Navbar() {
           <Link to="/" className="text-2xl font-bold ">
             Sid<span className="text-purple-500">Dev</span>
           </Link>
-        
-        <nav className="flex space-x-8">
-          {navLinks.map((links) => (
-            <Link className="hover:text-purple-600" to={links.path} key={links.name}>
-              {links.name}
-            </Link>
-          ))}
-        </nav>
-        <button className="bg-gray-600 p-3 rounded-xl border border-gray-800 hover:border-purple-600 cursor-pointer">Download CV</button>
+
+          <nav className="flex space-x-8">
+            {navLinks.map((links) => (
+              <Link
+                className="hover:text-purple-600"
+                to={links.path}
+                key={links.name}
+              >
+                {links.name}
+              </Link>
+            ))}
+          </nav>
+          <button className="bg-gray-600 p-3 rounded-xl border border-gray-800 hover:border-purple-600 cursor-pointer">
+            Download CV
+          </button>
         </div>
-        
       </header>
     </>
   );
