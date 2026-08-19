@@ -5,11 +5,13 @@ import Navbar from "./components/Navbar";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import { Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Navbar />
+      
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -18,6 +20,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>
+      <Footer />
     </>
   );
 }

@@ -43,15 +43,15 @@ function Contact() {
             <input
               type="text"
               placeholder="Your Name"
-              className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-700/60 focus:border-purple-500 transition-colors"
+              className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
             />
             <input type="email" placeholder="Your Email" 
-            className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-700/60 focus:border-purple-500 transition-colors"
+            className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
             />
             <textarea 
             type="field" 
             placeholder="Your Message" 
-            className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-700/60 focus:border-purple-500 transition-colors"
+            className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
             />
             <button type="submit" className="bg-purple-700 hover:bg-purple-800 rounded-xl p-3 cursor-pointer">Send Message</button>
           </form>

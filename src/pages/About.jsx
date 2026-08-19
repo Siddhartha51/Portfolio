@@ -31,13 +31,13 @@ function About() {
           Get to know more about my background and passion.
         </p>
       </div>
-      <div className="flex flex-col pt-10 max-w-xl space-y-4">
+      <div className="flex flex-col pt-10 max-w-xl space-y-5">
         <h1 className="font-bold text-2xl">My Journey</h1>
         <p className="">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
-          facilis dolore voluptate minus itaque. Libero architecto cum laborum
-          quis nisi quisquam, harum distinctio reiciendis eaque assumenda enim
-          aperiam nobis rerum.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optiofacilis
+          dolore voluptate minus itaque. Libero architecto cum laborum quis nisi
+          quisquam, harum distinctio reiciendis eaque assumenda enim aperiam
+          nobis rerum.
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
@@ -52,7 +52,7 @@ function About() {
             key={details.name}
             className="h-40 w-50 bg-gray-800 rounded-3xl p-3 border border-gray-800 hover:border-purple-600/50"
           >
-            <details.icon className="text-purple-600 m" size={20} />
+            <details.icon className="text-purple-600" size={20} />
             <p className="font-bold">{details.name}</p>
             <p className="text-gray-400">{details.details}</p>
           </div>

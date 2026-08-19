@@ -23,7 +23,7 @@ function Projects() {
     },
   ];
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-20 px-6">
+    <div className="min-h-screen bg-gray-950 text-white py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-center font-bold text-6xl">
           My <span className="text-purple-600">Projects</span>
@@ -46,15 +46,15 @@ function Projects() {
                 {projects.techs.map((tech, index) => (
                   <span
                     key={index}
-                    className="bg-gray-500 rounded-full px-3 py-1 mt-3"
+                    className="bg-gray-500 rounded-full px-3 py-1 mt-3 border border-gray-800 hover:border-purple-600/50"
                   >
                     {tech}
                   </span>
                 ))}
               </div>
-              <div className="flex flex-wrap justify-between p-3">
-                <span className="bg-gray-700 rounded-full px-3 py-1">Demo</span>
-                <span className="bg-gray-700 rounded-full px-3 py-1">Code</span>
+              <div className="flex flex-wrap justify-between p-3 ">
+                <span className="bg-gray-700 rounded-full px-3 py-1 border border-gray-800 hover:border-purple-600/50 cursor-pointer">Demo</span>
+                <span className="bg-gray-700 rounded-full px-3 py-1 border border-gray-800 hover:border-purple-600/50 cursor-pointer">Code</span>
               </div>
             </div>
           ))}
