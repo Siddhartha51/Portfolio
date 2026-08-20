@@ -7,7 +7,8 @@ function Projects() {
       image: profile,
       name: "Portfolio Website",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus, tenetur, nihil provident ad repellat cupiditate quoddebitis sint laudantium molestiae officia voluptatum suscipit ipsam deserunt sit laboriosam quam. Quaerat, accusantium",
+        "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+
       techs: ["html", "CSS"],
       demo: "",
       code: "",
@@ -16,7 +17,7 @@ function Projects() {
       image: portfolio,
       name: "Portfolio Website",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus, tenetur, nihil provident ad repellat cupiditate quoddebitis sint laudantium molestiae officia voluptatum suscipit ipsam deserunt sit laboriosam quam. Quaerat, accusantium",
+        "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
       techs: ["html", "CSS", "java", "ggg"],
       demo: "",
       code: "",

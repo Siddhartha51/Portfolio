@@ -24,11 +24,11 @@ function Footer() {
   const connect = [
     {
       icon: FaGithub,
-      path: "https://github.com",
+      path: "https://github.com/Siddhartha51",
     },
     {
       icon: FaLinkedin,
-      path: "https://linkedin.com",
+      path: "https://www.linkedin.com/in/siddhartha-thapa-93084b198/",
     },
     {
       icon: FaInstagram,
@@ -36,7 +36,7 @@ function Footer() {
     },
     {
       icon: FaFacebook,
-      path: "https://facebook.com",
+      path: "https://www.facebook.com/siddhartha.thapa.712",
     },
   ];
   return (

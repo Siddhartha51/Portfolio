@@ -31,26 +31,33 @@ function About() {
           Get to know more about my background and passion.
         </p>
       </div>
-      <div className="flex flex-col pt-10 max-w-xl space-y-5">
+      <div className="flex flex-col pt-10 max-w-2xl space-y-5">
         <h1 className="font-bold text-2xl">My Journey</h1>
         <p className="">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optiofacilis
-          dolore voluptate minus itaque. Libero architecto cum laborum quis nisi
-          quisquam, harum distinctio reiciendis eaque assumenda enim aperiam
-          nobis rerum.
+          I'm Siddhartha Thapa, a Software Engineering student with a strong
+          passion for technology, programming, and creating impactful digital
+          solutions. I enjoy transforming ideas into functional and
+          user-friendly applications while continuously expanding my knowledge
+          of modern software development. My interests span across full-stack
+          web development, mobile app development, UI/UX design, cloud
+          technologies, and emerging innovations in the tech industry.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          quas corrupti laborum porro libero nam sequi excepturi, ducimus a
-          repellat deserunt rem illum dicta sit optio esse ipsa architecto
-          aliquid!
+          I have experience working with technologies such as HTML, CSS,
+          JavaScript, React, Next.js, Node.js, MySQL, Firebase and
+          Flutter. Through academic and personal projects, I have developed
+          skills in frontend and backend development, database management,
+          authentication systems, and responsive design. I am committed to
+          continuous learning, solving real-world problems through technology,
+          and building high-quality applications that deliver meaningful
+          experiences to users.
         </p>
       </div>
       <div className="pt-10 flex space-x-3">
         {aboutMe.map((details) => (
           <div
             key={details.name}
-            className="h-40 w-50 bg-gray-800 rounded-3xl p-3 border border-gray-800 hover:border-purple-600/50"
+            className="h-40 w-50 bg-gray-800 rounded-3xl p-3 border border-gray-800 hover:border-purple-600/50 mb-10"
           >
             <details.icon className="text-purple-600" size={20} />
             <p className="font-bold">{details.name}</p>
