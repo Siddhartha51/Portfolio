@@ -62,7 +62,7 @@ function Navbar() {
             })}
           </ul>
           <a
-            href="../src/assets/Siddhartha_Thapa_CV.pdf"
+            href="/Siddhartha_Thapa_CV.pdf"
             target="_blank"
             rel="noreferrer"
             className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg font-bold transition-colors"
