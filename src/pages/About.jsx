@@ -53,11 +53,11 @@ function About() {
           experiences to users.
         </p>
       </div>
-      <div className="pt-10 flex space-x-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-5 max-w-200">
         {aboutMe.map((details) => (
           <div
             key={details.name}
-            className="h-40 w-50 bg-gray-800 rounded-3xl p-3 border border-gray-800 hover:border-purple-600/50 mb-10"
+            className=" bg-gray-800 rounded-3xl p-3 border border-gray-800 hover:border-purple-600/50 mb-10"
           >
             <details.icon className="text-purple-600" size={20} />
             <p className="font-bold">{details.name}</p>

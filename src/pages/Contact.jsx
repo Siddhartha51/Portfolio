@@ -4,8 +4,31 @@ import {
   FaBriefcase,
   FaRocket,
 } from "react-icons/fa";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_e8vc82c",
+        "template_wioiivb",
+        form.current,
+        "xJuIqOIElumF1sIph",
+      )
+      .then(
+        () => {
+          alert("Message sent successfully!");
+          form.current.reset();
+        },
+        (error) => {
+          alert("Failed to send message, please try again.", error.text);
+        },
+      );
+  };
   return (
     <div className="min-h-screen bg-gray-950 text-white py-20 px-6">
       <div className="mx-auto max-w-6xl">
@@ -43,21 +66,31 @@ function Contact() {
             </div>
           </div>
 
-          <form className="flex flex-col bg-gray-900 w-full max-w-lg border border-gray-800 hover:border-purple-700 space-y-4 rounded-2xl p-8">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="flex flex-col bg-gray-900 w-full max-w-lg border border-gray-800 hover:border-purple-700 space-y-4 rounded-2xl p-8"
+          >
             <input
               type="text"
               placeholder="Your Name"
+              name="user_name"
               className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
+              required
             />
             <input
               type="email"
               placeholder="Your Email"
+              name="user_email"
               className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
+              required
             />
             <textarea
               type="field"
               placeholder="Your Message"
+              name="text_area"
               className="bg-gray-800 px-4 py-3.5 rounded-xl border border-gray-800 hover:border-purple-600/50"
+              required
             />
             <button
               type="submit"

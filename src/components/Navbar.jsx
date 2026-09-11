@@ -42,7 +42,7 @@ function Navbar() {
             </a>
           </h1>
 
-          <ul className="flex space-x-6 hidden md:flex">
+          <ul className="flex space-x-6">
             {navLinks.map((link) => {
               const isActive = activeSection === link.href.substring(1);
               return (

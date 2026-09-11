@@ -31,14 +31,14 @@ function Projects() {
         </h1>
         <p className="text-center mt-4 text-xl">Projects I've built</p>
 
-        <div className="grid grid-cols-3 pt-5 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-5">
           {projectDetails.map((projects, index) => (
             <div
               key={index}
               className="bg-gray-800 rounded-2xl pb-3 border border-gray-800 hover:border-purple-500/50"
             >
               <div className="h-70 w-full flex items-center justify-center p-2">
-                <img src={projects.image} alt="" className="h-full rounded" />
+                <img src={projects.image} alt="" className="h-full rounded max-w-100%" />
               </div>
               <h2 className="font-bold text-xl pl-3 pt-3">{projects.name}</h2>
               <p className="text-gray-400 pl-3 pr-3">{projects.details}</p>
