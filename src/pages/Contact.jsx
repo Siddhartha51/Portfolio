@@ -42,7 +42,7 @@ function Contact() {
           <FaRocket className="text-purple-500 shrink-0" />
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-start gap-12">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-12">
           <div className="max-w-md space-y-4">
             <h2 className="text-2xl font-bold mb-4">
               Contact <span className="text-purple-500">Info</span>

@@ -41,12 +41,12 @@ function Footer() {
   ];
   return (
     <footer className="w-full bg-gray-900 text-white py-12 px-6 border-t border-gray-800">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
-        <div className="space-y-3">
-          <h1 className="text-2xl font-bold ">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className="space-y-3 flex flex-col items-center">
+          <h1 className="text-2xl font-bold">
             Sid<span className="text-purple-500">Dev</span>
           </h1>
-          <p className="max-w-xs text-gray-400">
+          <p className="max-w-55 text-gray-400">
             Building modern, responsive and high performance web applications.
           </p>
         </div>

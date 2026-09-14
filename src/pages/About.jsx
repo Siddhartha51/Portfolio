@@ -27,11 +27,11 @@ function About() {
         <h1 className="font-bold text-6xl">
           About <strong className="text-purple-600">Me</strong>
         </h1>
-        <p className="mt-2 text-xl">
+        <p className="mt-2 text-xl p-5">
           Get to know more about my background and passion.
         </p>
       </div>
-      <div className="flex flex-col pt-10 max-w-2xl space-y-5">
+      <div className="flex flex-col pt-10 max-w-4xl space-y-5 py-10 px-6">
         <h1 className="font-bold text-2xl">My Journey</h1>
         <p className="">
           I'm Siddhartha Thapa, a Software Engineering student with a strong
@@ -53,7 +53,7 @@ function About() {
           experiences to users.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-5 max-w-200">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-0 p-5 max-w-200">
         {aboutMe.map((details) => (
           <div
             key={details.name}

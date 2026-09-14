@@ -3,7 +3,7 @@ import profile from "../assets/myimg.JPG";
 function Home() {
   return (
     <>
-      <div className="w-full min-h-screen flex items-center justify-center bg-gray-950">
+      <div className="w-full min-h-screen flex items-center justify-center bg-gray-950 pt-10">
         <div className="max-w-6xl mx-auto px-6 py-12 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
           <div className="text-white space-y-4 max-w-xl">
             <h1 className="text-6xl">
